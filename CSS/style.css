@@ -1,0 +1,72 @@
+.about-col-1 {
+  flex-basis: 35%;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+}
+.bg-most-black {
+  background-color: rgb(22, 22, 22);
+}
+.bg-most-black:focus {
+  background-color: rgb(22, 22, 22);
+}
+.bg-hero-image {
+  background-image: url(/images/desktop.jpg);
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  transition: all ease-in-out 0.2s;
+}
+.card:hover {
+  background-color: #00a3ee;
+  transform: scale(1.05);
+}
+.celeste {
+  color: #00a3ee;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  line-height: 1.5;
+}
+#contacto {
+  text-decoration: none;
+}
+.fotomia {
+  max-width: 85%;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+i {
+  font-size: 4rem;
+}
+.min-vh-50 {
+  min-height: 50vh;
+}
+.lista-lenguajes {
+  list-style: none;
+}
+.subtitle {
+  font-size: 3.75em;
+}
+.text-gray {
+  color: rgb(184, 184, 184);
+}
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100000 !important;
+}
+.white-placeholder::placeholder {
+  color: rgb(129, 129, 129);
+}
